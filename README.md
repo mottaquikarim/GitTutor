@@ -2,6 +2,8 @@
 
 GitTutor helps new git-users understand / remember the commands needed to initialize git, push to remote, etc
 
+In other words, it will guide users through the steps needed to go from `git init` to `git commit`. 
+
 ## Installation
 
 1. Pull down this repo. 
