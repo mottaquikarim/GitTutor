@@ -8,7 +8,10 @@ GitTutor helps new git-users understand / remember the commands needed to initia
 2. Navigate to downloaded folder in terminal and type `npm install -g`
 3. Type in `gittutor` in terminal and you're good to go!
 
-# Todos
+## In Action
+![Gittutor in action](gittutor.gif)
+
+## Todos
 
 1. json for data 
 2. args should be array (with multiple params)
