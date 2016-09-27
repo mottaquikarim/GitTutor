@@ -1,0 +1,19 @@
+{
+  "name": "gittutor",
+  "version": "1.0.0",
+  "description": "Helper for performing simple git tasks.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mottaqui Karim",
+  "license": "ISC",
+  "bin": {
+    "gittutor_foo": "./app.js"
+  },
+  "dependencies": {
+    "colors": "^1.1.2",
+    "shelljs": "^0.5.3",
+    "sys": "0.0.1"
+  }
+}
