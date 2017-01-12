@@ -9,7 +9,7 @@
   "author": "Mottaqui Karim",
   "license": "ISC",
   "bin": {
-    "gittutor_foo": "./app.js"
+    "gittutor": "./app.js"
   },
   "dependencies": {
     "colors": "^1.1.2",
