@@ -53,6 +53,7 @@ Formatter.print = function( message, logLevel, numNewLines, numTabs) {
 }
 
 Formatter.clearScreen = function() {
+    if (typeof process.stdout.getWindowSize === "undefined") return;
     var lines = process.stdout.getWindowSize()[1];
     for(var i = 0; i < lines; i++) {
         console.log(' ');
